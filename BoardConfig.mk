@@ -56,6 +56,9 @@ $(call soong_config_set, android_hardware_audio, run_64bit, true)
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth/include
+
 # Display
 TARGET_SCREEN_DENSITY := 530
 
